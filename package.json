@@ -1,0 +1,29 @@
+{
+  "name": "saicharan",
+  "version": "2.0.0",
+  "description": "A personal card for Mahankali Sai Charan (@saicharan67)",
+  "main": "index.js",
+  "bin": {
+    "saicharan": "./index.js"
+  },
+  "scripts": {
+    "test": "node index.js",
+    "pub": "npm version major & npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saicharan67/Npx-Card.git"
+  },
+  "keywords": [
+    "npx card",
+    "card",
+    "saicharan"
+  ],
+  "author": "Mahankali Sai Charan",
+  "license": "ISC",
+  "dependencies": {
+    "boxen": "^5.0.1",
+    "chalk": "^4.1.1",
+    "clear": "^0.1.0"
+  }
+}
