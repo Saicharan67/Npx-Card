@@ -11,14 +11,14 @@ const data = {
     name: chalk.bold.green("              Mahankali Sai Charan"),
     handle: chalk.white("@saicharan67"),
     work: `${chalk.white("Student at")} ${chalk
+        .cyanBright
         .bold
-        .blue
         ("NIT Andhra")}`,
     
-    github: chalk.gray("https://github.com/") + chalk.blue("saicharan67"),
-    LeetCode: chalk.gray("https://leetcode.com/") + chalk.blue("MaC-02"),
-    linkedin: chalk.gray("https://linkedin.com/in/") + chalk.blue("saicharan67"),
-    web: chalk.blue("https://saicharan67.github.io/PortFolio"),
+    github: chalk.gray("https://github.com/") + chalk.cyanBright("saicharan67"),
+    LeetCode: chalk.gray("https://leetcode.com/") + chalk.cyanBright("MaC-02"),
+    linkedin: chalk.gray("https://linkedin.com/in/") + chalk.cyanBright("saicharan67"),
+    web: chalk.cyanBright("https://saicharan67.github.io/PortFolio"),
     npx: chalk.hex("#FDFF62")("npx") + " " + chalk.white("saicharan"),
 
     labelWork: chalk.white.bold("          Work:"),
