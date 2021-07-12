@@ -8,7 +8,7 @@ const clear =require('clear')
 clear()
 
 const data = {
-    name: chalk.bold.green("             Mahankali Sai Charan"),
+    name: chalk.bold.green("                    Mahankali Sai Charan"),
     handle: chalk.white("@saicharan67"),
     work: `${chalk.white("Student at")} ${chalk
         .hex("#2b82b2")
@@ -16,7 +16,7 @@ const data = {
     
     github: chalk.gray("https://github.com/") + chalk.green("saicharan67"),
     LeetCode: chalk.gray("https://leetcode.com/") + chalk.cyan("MaC-02"),
-    linkedin: chalk.gray("https://linkedin.com/in/") + chalk.blue("mahankali-sai-charan-b89054176"),
+    linkedin: chalk.gray("https://linkedin.com/in/") + chalk.blue("saicharan67"),
     web: chalk.cyan("https://saicharan67.github.io/PortFolio"),
     npx: chalk.red("npx") + " " + chalk.white("saicharan"),
 
