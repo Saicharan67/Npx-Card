@@ -10,10 +10,10 @@ clear()
 const data = {
     name: chalk.bold.green("              Mahankali Sai Charan"),
     handle: chalk.white("@saicharan67"),
-    work: `${chalk.white("Student at")} ${chalk
+    work: `${chalk.white("SDE at")} ${chalk
         .cyanBright
         .bold
-        ("NIT Andhra")}`,
+        ("Carrier")}`,
     
     github: chalk.gray("https://github.com/") + chalk.cyanBright("saicharan67"),
     LeetCode: chalk.gray("https://leetcode.com/") + chalk.cyanBright("MaC-02"),
